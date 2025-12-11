@@ -46,7 +46,7 @@ function App() {
 
     try {
       // Point to your FastAPI backend
-      const endpoint = `http://127.0.0.1:8000/${mode}`;
+      const endpoint = `https://helixlock-backend.onrender.com/${mode}`;
       const response = await fetch(endpoint, {
         method: "POST",
         body: formData,
