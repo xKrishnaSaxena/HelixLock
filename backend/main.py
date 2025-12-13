@@ -9,7 +9,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://helixlock.onrender.com","http://localhost:5173"],
+    allow_origins=["https://helixlock.onrender.com","http://localhost:5173","https://helixlock.stelliform.xyz"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
